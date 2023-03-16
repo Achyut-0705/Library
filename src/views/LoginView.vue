@@ -1,6 +1,11 @@
 <template>
     <div class="center" :style="`background-color: ${randomColor()}`">
-        <h1>Login Page</h1>
+        <v-row>
+            <v-col cols="10" offset="1">
+                <h1>Login Page</h1>
+                <v-img src="@/assets/logo.jpg"></v-img>
+            </v-col>
+        </v-row>
     </div>
 </template>
 
